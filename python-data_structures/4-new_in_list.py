@@ -6,7 +6,7 @@ def new_in_list(my_list, idx, element):
         return my_list
     else:
         new_list = []
-    for i in my_list:
-        new_list.append(i)
+        for i in my_list:
+            new_list.append(i)
         new_list[idx] = element
         return new_list
