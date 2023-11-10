@@ -4,6 +4,6 @@ def update_dictionary(a_dictionary, key, value):
         if k == key:
             a_dictionary[k] = value
             break
-    else:
-        a_dictionary[key] = value
+        else:
+             a_dictionary[key] = value
     return(a_dictionary)
