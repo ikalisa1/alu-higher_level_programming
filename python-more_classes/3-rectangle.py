@@ -59,6 +59,6 @@ and can print the rectangle using '#' with print() or str()"""
         for row in range(self.height):
             for column in range(self.width):
                 rec_string += "#"
-                rec_string += "\n"
-                rec_string = rec_string[:-1]
-                return (rec_string)
+            rec_string += "\n"
+        rec_string = rec_string[:-1]
+        return (rec_string)
