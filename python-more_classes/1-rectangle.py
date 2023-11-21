@@ -34,8 +34,8 @@ class Rectangle:
     def height(self, value):
         """sets private instance attribute height"""
         if type(value) is not int:
-             raise TypeError("height must be an integer")
+            raise TypeError("height must be an integer")
         elif value < 0:
-             raise ValueError("height must be >= 0")
+            raise ValueError("height must be >= 0")
         else:
-             self.__height = value
+            self.__height = value
