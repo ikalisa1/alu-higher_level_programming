@@ -50,7 +50,8 @@ and can print the rectangle using '#' with print() or str()"""
         """calculates perimeter of the rectangle"""
         if self.width == 0 or self.height == 0:
             return 0
-        return ((2 * self.width) + (2 * self.height))                                                                                                                                                                                                                                                                          
+        return ((2 * self.width) + (2 * self.height))
+
     def __str__(self):
         """returns string representation of rectangle"""
         rec_string = ""
