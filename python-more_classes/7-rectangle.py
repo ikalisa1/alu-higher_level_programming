@@ -48,7 +48,7 @@ and prints message when deleted"""
             raise ValueError("height must be >= 0")
         else:
             self.__height = value
-            
+
     def area(self):
         """calculates area of the rectangle"""
         return (self.width * self.height)
