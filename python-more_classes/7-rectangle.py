@@ -52,7 +52,7 @@ and prints message when deleted"""
     def area(self):
         """calculates area of the rectangle"""
         return (self.width * self.height)
-    
+
     def perimeter(self):
         """calculates perimeter of the rectangle"""
         if self.width == 0 or self.height == 0:
