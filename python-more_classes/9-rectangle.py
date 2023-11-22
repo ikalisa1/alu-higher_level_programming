@@ -97,7 +97,3 @@ and class method to return new Rectangle instance for a square"""
             return (rect_2)
         else:
             return (rect_1)
-
-    @classmethod
-    def square(cls, size=0)
-        return (cls(size, size))
