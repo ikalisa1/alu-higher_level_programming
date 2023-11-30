@@ -1,2 +1,2 @@
--- deletes all records with score less than 6 from second_table
-DELETE FROM `second_table` WHERE `score` <= 5;
+-- computes the score average of all records in second_table
+SELECT AVG(`score`) 'average' FROM `second_table`;
